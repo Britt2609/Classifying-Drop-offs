@@ -15,6 +15,7 @@ Project Organization
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
+    |                      THIS DATA IS NOT INCLUDED IN THE REPOSITORY DUE TO CONFIDENTIALITY REASONS.
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
