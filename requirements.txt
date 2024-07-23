@@ -1,0 +1,19 @@
+# local package
+-e .
+
+# external requirements
+click 
+Sphinx
+coverage
+awscli
+flake8
+python-dotenv
+pandas
+numpy
+scipy
+matplotlib
+tensorflow
+keras
+hyperas==0.2
+scikit-learn
+scikit-image
