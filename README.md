@@ -1,7 +1,8 @@
 Predicting Drop-offs on the Dutch Coast
 ==============================
 
-Using se an LSTM model to predict drop-offs of the Dutch coast using phistoric AIS data. Supported by the Maritime Police of The Netherlands.
+Using an LSTM model to predict drop-offs of the Dutch coast using historical AIS data. Supported by the Maritime Police of The Netherlands.
+Researched by Britt van Leeuwen and Maike Nutzel
 
 Project Organization
 ------------
