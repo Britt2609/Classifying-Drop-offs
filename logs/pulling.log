@@ -1,0 +1,243 @@
+2023-06-26 14:05:34,438 - __main__ - INFO - loading data set from raw data
+2023-06-26 14:05:34,439 - __main__ - INFO - loaded files f'data/raw/negative/madesmart/*.csv'
+2023-06-26 14:05:34,439 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs SEP-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:38,242 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs JUN-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:41,024 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs JUL-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:43,596 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs NOV-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:47,649 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs AUG-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:51,018 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs OCT-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:54,963 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs MAY-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:57,332 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs DEC-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:05:59,438 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs JAN-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:06:01,511 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs MAR-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:06:05,925 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs APR-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:06:08,052 - __main__ - INFO - Loading : data/raw/negative/madesmart/Dropoffs FEB-2022 Dutch Coast - all Fishing.csv
+2023-06-26 14:06:10,216 - __main__ - INFO - loaded negative data
+2023-06-26 14:08:12,192 - __main__ - INFO - made negative df MMSIs annonymous
+2023-06-26 14:08:12,193 - __main__ - INFO - loaded files f'data/raw/positive/madesmart/*.csv'
+2023-06-26 14:08:12,193 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM17.csv
+2023-06-26 14:08:12,201 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM7.csv
+2023-06-26 14:08:12,222 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM8.csv
+2023-06-26 14:08:12,285 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM6.csv
+2023-06-26 14:08:12,329 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM3.csv
+2023-06-26 14:08:12,352 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM5.csv
+2023-06-26 14:08:12,427 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM9.csv
+2023-06-26 14:08:12,434 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM2.csv
+2023-06-26 14:08:12,456 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM16.csv
+2023-06-26 14:08:12,461 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM12.csv
+2023-06-26 14:08:12,498 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM14.csv
+2023-06-26 14:08:12,771 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM15.csv
+2023-06-26 14:08:12,792 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM4.csv
+2023-06-26 14:08:12,956 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM13.csv
+2023-06-26 14:08:13,058 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM11.csv
+2023-06-26 14:08:13,069 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM0.csv
+2023-06-26 14:08:13,082 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM1.csv
+2023-06-26 14:08:13,219 - __main__ - INFO - Loading : data/raw/positive/madesmart/NUM10.csv
+2023-06-26 14:08:13,375 - __main__ - INFO - loaded positive (already annonymous) data
+2023-06-26 14:09:38,003 - __main__ - INFO - df_positive.shape[0]: 192073, df_negative.shape[0] : 37878389
+2023-06-26 14:09:43,969 - __main__ - INFO - Undersampled -18671089 rows smaller 
+2023-06-26 14:09:49,282 - __main__ - INFO - number of deletions are : 1
+2023-06-26 14:09:55,241 - root - INFO - deleting track from MMSI 103327516 with label 0. # points: 2
+2023-06-26 14:09:57,016 - root - INFO - deleting track from MMSI 103335061 with label 0. # points: 2
+2023-06-26 14:09:58,793 - root - INFO - deleting track from MMSI 110846866 with label 0. # points: 5
+2023-06-26 14:10:00,577 - root - INFO - deleting track from MMSI 125437574 with label 0. # points: 3
+2023-06-26 14:10:02,361 - root - INFO - deleting track from MMSI 126418577 with label 0. # points: 2
+2023-06-26 14:10:04,144 - root - INFO - deleting track from MMSI 130612126 with label 0. # points: 5
+2023-06-26 14:10:05,922 - root - INFO - deleting track from MMSI 134111363 with label 0. # points: 2
+2023-06-26 14:10:07,698 - root - INFO - deleting track from MMSI 145729775 with label 0. # points: 4
+2023-06-26 14:10:09,471 - root - INFO - deleting track from MMSI 149222661 with label 0. # points: 1
+2023-06-26 14:10:11,247 - root - INFO - deleting track from MMSI 150908760 with label 0. # points: 1
+2023-06-26 14:10:13,030 - root - INFO - deleting track from MMSI 152003174 with label 0. # points: 1
+2023-06-26 14:10:14,807 - root - INFO - deleting track from MMSI 158319349 with label 0. # points: 2
+2023-06-26 14:10:16,583 - root - INFO - deleting track from MMSI 164819795 with label 0. # points: 1
+2023-06-26 14:10:18,358 - root - INFO - deleting track from MMSI 166813801 with label 0. # points: 1
+2023-06-26 14:10:20,135 - root - INFO - deleting track from MMSI 181239486 with label 0. # points: 14
+2023-06-26 14:10:21,912 - root - INFO - deleting track from MMSI 182785380 with label 0. # points: 1
+2023-06-26 14:10:23,699 - root - INFO - deleting track from MMSI 183781931 with label 0. # points: 1
+2023-06-26 14:10:25,479 - root - INFO - deleting track from MMSI 200901987 with label 0. # points: 1
+2023-06-26 14:10:27,254 - root - INFO - deleting track from MMSI 201082785 with label 0. # points: 2
+2023-06-26 14:10:29,048 - root - INFO - deleting track from MMSI 208448737 with label 0. # points: 1
+2023-06-26 14:10:30,859 - root - INFO - deleting track from MMSI 215348502 with label 0. # points: 1
+2023-06-26 14:10:32,653 - root - INFO - deleting track from MMSI 217302211 with label 0. # points: 1
+2023-06-26 14:10:34,428 - root - INFO - deleting track from MMSI 221033982 with label 0. # points: 1
+2023-06-26 14:10:36,200 - root - INFO - deleting track from MMSI 222929762 with label 0. # points: 1
+2023-06-26 14:10:37,980 - root - INFO - deleting track from MMSI 226413861 with label 0. # points: 2
+2023-06-26 14:10:39,781 - root - INFO - deleting track from MMSI 228283989 with label 0. # points: 3
+2023-06-26 14:10:41,579 - root - INFO - deleting track from MMSI 237796713 with label 0. # points: 1
+2023-06-26 14:10:43,374 - root - INFO - deleting track from MMSI 240195882 with label 0. # points: 5
+2023-06-26 14:10:45,171 - root - INFO - deleting track from MMSI 247093677 with label 0. # points: 1
+2023-06-26 14:10:46,944 - root - INFO - deleting track from MMSI 248272764 with label 0. # points: 1
+2023-06-26 14:10:48,745 - root - INFO - deleting track from MMSI 248912226 with label 0. # points: 3
+2023-06-26 14:10:50,519 - root - INFO - deleting track from MMSI 266590001 with label 0. # points: 1
+2023-06-26 14:10:52,326 - root - INFO - deleting track from MMSI 266885210 with label 0. # points: 2
+2023-06-26 14:10:54,117 - root - INFO - deleting track from MMSI 269902755 with label 0. # points: 4
+2023-06-26 14:10:55,924 - root - INFO - deleting track from MMSI 278800291 with label 0. # points: 1
+2023-06-26 14:10:57,726 - root - INFO - deleting track from MMSI 280870777 with label 0. # points: 11
+2023-06-26 14:10:59,535 - root - INFO - deleting track from MMSI 282155061 with label 0. # points: 3
+2023-06-26 14:11:01,329 - root - INFO - deleting track from MMSI 286418389 with label 0. # points: 2
+2023-06-26 14:11:03,116 - root - INFO - deleting track from MMSI 292770799 with label 0. # points: 1
+2023-06-26 14:11:04,894 - root - INFO - deleting track from MMSI 300064940 with label 0. # points: 3
+2023-06-26 14:11:06,704 - root - INFO - deleting track from MMSI 301684847 with label 0. # points: 1
+2023-06-26 14:11:08,508 - root - INFO - deleting track from MMSI 306190526 with label 0. # points: 1
+2023-06-26 14:11:10,325 - root - INFO - deleting track from MMSI 306531033 with label 0. # points: 2
+2023-06-26 14:11:12,186 - root - INFO - deleting track from MMSI 309303724 with label 0. # points: 3
+2023-06-26 14:11:14,045 - root - INFO - deleting track from MMSI 314247832 with label 0. # points: 1
+2023-06-26 14:11:15,913 - root - INFO - deleting track from MMSI 315707456 with label 0. # points: 5
+2023-06-26 14:11:17,770 - root - INFO - deleting track from MMSI 322254813 with label 0. # points: 3
+2023-06-26 14:11:19,627 - root - INFO - deleting track from MMSI 324017854 with label 0. # points: 1
+2023-06-26 14:11:21,491 - root - INFO - deleting track from MMSI 324280076 with label 0. # points: 2
+2023-06-26 14:11:23,351 - root - INFO - deleting track from MMSI 330737640 with label 0. # points: 1
+2023-06-26 14:11:25,227 - root - INFO - deleting track from MMSI 333186823 with label 0. # points: 1
+2023-06-26 14:11:27,089 - root - INFO - deleting track from MMSI 333192134 with label 0. # points: 1
+2023-06-26 14:11:28,950 - root - INFO - deleting track from MMSI 342843801 with label 0. # points: 1
+2023-06-26 14:11:30,816 - root - INFO - deleting track from MMSI 343160427 with label 0. # points: 12
+2023-06-26 14:11:32,674 - root - INFO - deleting track from MMSI 347228392 with label 0. # points: 1
+2023-06-26 14:11:34,533 - root - INFO - deleting track from MMSI 353546142 with label 0. # points: 6
+2023-06-26 14:11:36,392 - root - INFO - deleting track from MMSI 358918777 with label 0. # points: 2
+2023-06-26 14:11:38,253 - root - INFO - deleting track from MMSI 363524649 with label 0. # points: 3
+2023-06-26 14:11:40,126 - root - INFO - deleting track from MMSI 375630166 with label 0. # points: 4
+2023-06-26 14:11:41,981 - root - INFO - deleting track from MMSI 389522830 with label 0. # points: 2
+2023-06-26 14:11:43,851 - root - INFO - deleting track from MMSI 390308402 with label 0. # points: 2
+2023-06-26 14:11:45,716 - root - INFO - deleting track from MMSI 390854891 with label 0. # points: 2
+2023-06-26 14:11:47,571 - root - INFO - deleting track from MMSI 395469019 with label 0. # points: 1
+2023-06-26 14:11:49,425 - root - INFO - deleting track from MMSI 400635937 with label 0. # points: 1
+2023-06-26 14:11:51,282 - root - INFO - deleting track from MMSI 401758023 with label 0. # points: 9
+2023-06-26 14:11:53,137 - root - INFO - deleting track from MMSI 403706562 with label 0. # points: 1
+2023-06-26 14:11:54,993 - root - INFO - deleting track from MMSI 405310917 with label 0. # points: 1
+2023-06-26 14:11:56,863 - root - INFO - deleting track from MMSI 406663195 with label 0. # points: 3
+2023-06-26 14:11:58,724 - root - INFO - deleting track from MMSI 419268965 with label 0. # points: 3
+2023-06-26 14:12:00,585 - root - INFO - deleting track from MMSI 420210829 with label 0. # points: 5
+2023-06-26 14:12:02,452 - root - INFO - deleting track from MMSI 421684048 with label 0. # points: 1
+2023-06-26 14:12:04,312 - root - INFO - deleting track from MMSI 425352871 with label 0. # points: 2
+2023-06-26 14:12:06,172 - root - INFO - deleting track from MMSI 426094334 with label 0. # points: 2
+2023-06-26 14:12:08,030 - root - INFO - deleting track from MMSI 427097039 with label 0. # points: 3
+2023-06-26 14:12:09,888 - root - INFO - deleting track from MMSI 431705572 with label 0. # points: 4
+2023-06-26 14:12:11,750 - root - INFO - deleting track from MMSI 440481187 with label 0. # points: 5
+2023-06-26 14:12:13,614 - root - INFO - deleting track from MMSI 443107280 with label 0. # points: 1
+2023-06-26 14:12:15,477 - root - INFO - deleting track from MMSI 446457248 with label 0. # points: 1
+2023-06-26 14:12:17,341 - root - INFO - deleting track from MMSI 450136865 with label 0. # points: 1
+2023-06-26 14:12:19,203 - root - INFO - deleting track from MMSI 455623739 with label 0. # points: 1
+2023-06-26 14:12:21,059 - root - INFO - deleting track from MMSI 458803369 with label 0. # points: 1
+2023-06-26 14:12:22,918 - root - INFO - deleting track from MMSI 464253699 with label 0. # points: 2
+2023-06-26 14:12:24,778 - root - INFO - deleting track from MMSI 469430211 with label 0. # points: 2
+2023-06-26 14:12:26,635 - root - INFO - deleting track from MMSI 475967898 with label 0. # points: 1
+2023-06-26 14:12:28,503 - root - INFO - deleting track from MMSI 476415500 with label 0. # points: 3
+2023-06-26 14:12:30,377 - root - INFO - deleting track from MMSI 489557478 with label 0. # points: 1
+2023-06-26 14:12:32,233 - root - INFO - deleting track from MMSI 503214136 with label 0. # points: 2
+2023-06-26 14:12:34,097 - root - INFO - deleting track from MMSI 504934836 with label 0. # points: 1
+2023-06-26 14:12:35,959 - root - INFO - deleting track from MMSI 509276805 with label 0. # points: 1
+2023-06-26 14:12:37,815 - root - INFO - deleting track from MMSI 510949278 with label 0. # points: 1
+2023-06-26 14:12:39,671 - root - INFO - deleting track from MMSI 518731017 with label 0. # points: 13
+2023-06-26 14:12:41,527 - root - INFO - deleting track from MMSI 518795534 with label 0. # points: 3
+2023-06-26 14:12:43,386 - root - INFO - deleting track from MMSI 520768487 with label 0. # points: 2
+2023-06-26 14:12:45,249 - root - INFO - deleting track from MMSI 522475404 with label 0. # points: 1
+2023-06-26 14:12:47,116 - root - INFO - deleting track from MMSI 529970155 with label 0. # points: 2
+2023-06-26 14:12:49,008 - root - INFO - deleting track from MMSI 530865384 with label 0. # points: 3
+2023-06-26 14:12:50,893 - root - INFO - deleting track from MMSI 533348542 with label 0. # points: 1
+2023-06-26 14:12:52,779 - root - INFO - deleting track from MMSI 534781428 with label 0. # points: 1
+2023-06-26 14:12:54,636 - root - INFO - deleting track from MMSI 540236843 with label 0. # points: 1
+2023-06-26 14:12:56,506 - root - INFO - deleting track from MMSI 542419778 with label 0. # points: 2
+2023-06-26 14:12:58,380 - root - INFO - deleting track from MMSI 548789651 with label 0. # points: 1
+2023-06-26 14:13:00,235 - root - INFO - deleting track from MMSI 564525131 with label 0. # points: 1
+2023-06-26 14:13:02,099 - root - INFO - deleting track from MMSI 566839371 with label 0. # points: 1
+2023-06-26 14:13:03,964 - root - INFO - deleting track from MMSI 570783162 with label 0. # points: 1
+2023-06-26 14:13:05,859 - root - INFO - deleting track from MMSI 572098317 with label 0. # points: 5
+2023-06-26 14:13:07,727 - root - INFO - deleting track from MMSI 572765453 with label 0. # points: 2
+2023-06-26 14:13:09,596 - root - INFO - deleting track from MMSI 576119198 with label 0. # points: 10
+2023-06-26 14:13:11,453 - root - INFO - deleting track from MMSI 602975074 with label 0. # points: 5
+2023-06-26 14:13:13,256 - root - INFO - deleting track from MMSI 603311245 with label 0. # points: 1
+2023-06-26 14:13:15,059 - root - INFO - deleting track from MMSI 604772200 with label 0. # points: 1
+2023-06-26 14:13:16,895 - root - INFO - deleting track from MMSI 605778708 with label 0. # points: 2
+2023-06-26 14:13:18,689 - root - INFO - deleting track from MMSI 613550518 with label 0. # points: 2
+2023-06-26 14:13:20,485 - root - INFO - deleting track from MMSI 617112099 with label 0. # points: 1
+2023-06-26 14:13:22,268 - root - INFO - deleting track from MMSI 617572022 with label 0. # points: 2
+2023-06-26 14:13:24,057 - root - INFO - deleting track from MMSI 618377814 with label 0. # points: 13
+2023-06-26 14:13:25,842 - root - INFO - deleting track from MMSI 621072477 with label 0. # points: 2
+2023-06-26 14:13:27,624 - root - INFO - deleting track from MMSI 622462962 with label 0. # points: 1
+2023-06-26 14:13:29,407 - root - INFO - deleting track from MMSI 624024225 with label 0. # points: 6
+2023-06-26 14:13:31,196 - root - INFO - deleting track from MMSI 627355206 with label 0. # points: 7
+2023-06-26 14:13:32,987 - root - INFO - deleting track from MMSI 630454096 with label 0. # points: 1
+2023-06-26 14:13:34,770 - root - INFO - deleting track from MMSI 643419971 with label 0. # points: 4
+2023-06-26 14:13:36,554 - root - INFO - deleting track from MMSI 644921315 with label 0. # points: 4
+2023-06-26 14:13:38,342 - root - INFO - deleting track from MMSI 651244438 with label 0. # points: 7
+2023-06-26 14:13:40,119 - root - INFO - deleting track from MMSI 655397814 with label 0. # points: 1
+2023-06-26 14:13:41,897 - root - INFO - deleting track from MMSI 656759929 with label 0. # points: 1
+2023-06-26 14:13:43,680 - root - INFO - deleting track from MMSI 659067568 with label 0. # points: 5
+2023-06-26 14:13:45,458 - root - INFO - deleting track from MMSI 662311878 with label 0. # points: 4
+2023-06-26 14:13:47,240 - root - INFO - deleting track from MMSI 665150602 with label 0. # points: 1
+2023-06-26 14:13:49,032 - root - INFO - deleting track from MMSI 672916754 with label 0. # points: 1
+2023-06-26 14:13:50,816 - root - INFO - deleting track from MMSI 688040911 with label 0. # points: 4
+2023-06-26 14:13:52,600 - root - INFO - deleting track from MMSI 688205351 with label 0. # points: 7
+2023-06-26 14:13:54,389 - root - INFO - deleting track from MMSI 708374616 with label 0. # points: 1
+2023-06-26 14:13:56,167 - root - INFO - deleting track from MMSI 719338965 with label 0. # points: 1
+2023-06-26 14:13:57,946 - root - INFO - deleting track from MMSI 733670156 with label 0. # points: 2
+2023-06-26 14:13:59,721 - root - INFO - deleting track from MMSI 740821985 with label 0. # points: 1
+2023-06-26 14:14:01,501 - root - INFO - deleting track from MMSI 745469633 with label 0. # points: 1
+2023-06-26 14:14:03,284 - root - INFO - deleting track from MMSI 746150804 with label 0. # points: 2
+2023-06-26 14:14:05,066 - root - INFO - deleting track from MMSI 749433144 with label 0. # points: 3
+2023-06-26 14:14:06,851 - root - INFO - deleting track from MMSI 753700071 with label 0. # points: 11
+2023-06-26 14:14:08,632 - root - INFO - deleting track from MMSI 760717602 with label 0. # points: 4
+2023-06-26 14:14:10,410 - root - INFO - deleting track from MMSI 764781667 with label 0. # points: 1
+2023-06-26 14:14:12,190 - root - INFO - deleting track from MMSI 769395719 with label 0. # points: 10
+2023-06-26 14:14:13,969 - root - INFO - deleting track from MMSI 773539912 with label 0. # points: 4
+2023-06-26 14:14:15,753 - root - INFO - deleting track from MMSI 780569467 with label 0. # points: 1
+2023-06-26 14:14:17,540 - root - INFO - deleting track from MMSI 783391736 with label 0. # points: 4
+2023-06-26 14:14:19,326 - root - INFO - deleting track from MMSI 784193302 with label 0. # points: 4
+2023-06-26 14:14:21,113 - root - INFO - deleting track from MMSI 787009465 with label 0. # points: 1
+2023-06-26 14:14:22,898 - root - INFO - deleting track from MMSI 789276298 with label 0. # points: 1
+2023-06-26 14:14:24,678 - root - INFO - deleting track from MMSI 792820955 with label 0. # points: 4
+2023-06-26 14:14:26,459 - root - INFO - deleting track from MMSI 797555321 with label 0. # points: 3
+2023-06-26 14:14:28,243 - root - INFO - deleting track from MMSI 806708992 with label 0. # points: 2
+2023-06-26 14:14:30,033 - root - INFO - deleting track from MMSI 811478828 with label 0. # points: 8
+2023-06-26 14:14:31,835 - root - INFO - deleting track from MMSI 815061826 with label 0. # points: 8
+2023-06-26 14:14:33,615 - root - INFO - deleting track from MMSI 816831513 with label 0. # points: 2
+2023-06-26 14:14:35,400 - root - INFO - deleting track from MMSI 819127797 with label 0. # points: 1
+2023-06-26 14:14:37,186 - root - INFO - deleting track from MMSI 823074083 with label 0. # points: 1
+2023-06-26 14:14:38,961 - root - INFO - deleting track from MMSI 830007722 with label 0. # points: 1
+2023-06-26 14:14:40,736 - root - INFO - deleting track from MMSI 834009056 with label 0. # points: 2
+2023-06-26 14:14:42,510 - root - INFO - deleting track from MMSI 839420980 with label 0. # points: 2
+2023-06-26 14:14:44,289 - root - INFO - deleting track from MMSI 839999291 with label 0. # points: 1
+2023-06-26 14:14:46,073 - root - INFO - deleting track from MMSI 841940159 with label 0. # points: 2
+2023-06-26 14:14:47,856 - root - INFO - deleting track from MMSI 842797515 with label 0. # points: 1
+2023-06-26 14:14:49,644 - root - INFO - deleting track from MMSI 857945786 with label 0. # points: 6
+2023-06-26 14:14:51,439 - root - INFO - deleting track from MMSI 858402754 with label 0. # points: 3
+2023-06-26 14:14:53,223 - root - INFO - deleting track from MMSI 864586489 with label 0. # points: 7
+2023-06-26 14:14:55,006 - root - INFO - deleting track from MMSI 867247676 with label 0. # points: 5
+2023-06-26 14:14:56,789 - root - INFO - deleting track from MMSI 869672711 with label 0. # points: 14
+2023-06-26 14:14:58,573 - root - INFO - deleting track from MMSI 872782640 with label 0. # points: 1
+2023-06-26 14:15:00,356 - root - INFO - deleting track from MMSI 880994075 with label 0. # points: 1
+2023-06-26 14:15:02,139 - root - INFO - deleting track from MMSI 889672024 with label 0. # points: 1
+2023-06-26 14:15:03,926 - root - INFO - deleting track from MMSI 890561129 with label 0. # points: 7
+2023-06-26 14:15:05,706 - root - INFO - deleting track from MMSI 898448002 with label 0. # points: 1
+2023-06-26 14:15:07,481 - root - INFO - deleting track from MMSI 900858140 with label 0. # points: 2
+2023-06-26 14:15:09,258 - root - INFO - deleting track from MMSI 906745252 with label 0. # points: 8
+2023-06-26 14:15:11,032 - root - INFO - deleting track from MMSI 908638115 with label 0. # points: 2
+2023-06-26 14:15:12,806 - root - INFO - deleting track from MMSI 916149368 with label 0. # points: 3
+2023-06-26 14:15:14,588 - root - INFO - deleting track from MMSI 920770529 with label 0. # points: 3
+2023-06-26 14:15:16,372 - root - INFO - deleting track from MMSI 921121661 with label 0. # points: 1
+2023-06-26 14:15:18,154 - root - INFO - deleting track from MMSI 933758852 with label 0. # points: 1
+2023-06-26 14:15:19,932 - root - INFO - deleting track from MMSI 935171133 with label 0. # points: 5
+2023-06-26 14:15:21,716 - root - INFO - deleting track from MMSI 940477373 with label 0. # points: 2
+2023-06-26 14:15:23,491 - root - INFO - deleting track from MMSI 942243315 with label 0. # points: 4
+2023-06-26 14:15:25,265 - root - INFO - deleting track from MMSI 942433715 with label 0. # points: 5
+2023-06-26 14:15:27,039 - root - INFO - deleting track from MMSI 945774698 with label 0. # points: 1
+2023-06-26 14:15:28,809 - root - INFO - deleting track from MMSI 950988024 with label 0. # points: 2
+2023-06-26 14:15:30,582 - root - INFO - deleting track from MMSI 954183119 with label 0. # points: 1
+2023-06-26 14:15:32,360 - root - INFO - deleting track from MMSI 954436553 with label 0. # points: 1
+2023-06-26 14:15:34,146 - root - INFO - deleting track from MMSI 965660614 with label 0. # points: 5
+2023-06-26 14:15:35,923 - root - INFO - deleting track from MMSI 967066827 with label 0. # points: 10
+2023-06-26 14:15:37,712 - root - INFO - deleting track from MMSI 968052191 with label 0. # points: 2
+2023-06-26 14:15:39,493 - root - INFO - deleting track from MMSI 976001587 with label 0. # points: 10
+2023-06-26 14:15:41,271 - root - INFO - deleting track from MMSI 976656146 with label 0. # points: 4
+2023-06-26 14:15:43,049 - root - INFO - deleting track from MMSI 979240192 with label 0. # points: 2
+2023-06-26 14:15:44,829 - root - INFO - deleting track from MMSI 984548913 with label 0. # points: 5
+2023-06-26 14:15:48,477 - __main__ - INFO - converted Pandas dataframe to Numpy array
+2023-06-26 14:15:48,477 - __main__ - INFO - check: MMSI: 715174581,  Date : 24/08/2022 14:14:53, Latitude : 52.935125,  Longitude: 4.527092,  SOG : 3.5, COG : 351.5
+2023-06-26 14:15:48,477 - __main__ - INFO - dates to delete: [20220125, 20220126, 20220628]
+2023-06-26 14:15:52,531 - __main__ - INFO - index of dates_to_delete are [array([], dtype=int64)]
+2023-06-26 14:16:02,640 - __main__ - INFO - index of dates_to_delete are [array([], dtype=int64)]
+2023-06-26 14:16:13,638 - __main__ - INFO - index of dates_to_delete are [array([], dtype=int64)]
+2023-06-26 14:16:18,358 - __main__ - INFO - deleted duplicate dates, df is now 0 rows smaller (could be zero due to undersampling) 
+2023-06-26 14:16:52,413 - __main__ - INFO - converted UTC and Date to int date, df shape is (19399372, 7)
+2023-06-26 14:18:18,907 - __main__ - INFO - Sorted array by MMSI, then Date
+2023-06-26 14:18:49,489 - __main__ - INFO - saved all tracks to data/interim/all_tracks_sorted.npz
