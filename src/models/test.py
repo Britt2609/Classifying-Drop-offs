@@ -194,8 +194,6 @@ def main(input_filepath, input_filepath_models, output_filepath_figures, output_
 
 
     # save csv file
-    # fix with proper method
-
     df_results_new.to_csv(file_name_results, sep = ',')
 
 if __name__ == '__main__':
