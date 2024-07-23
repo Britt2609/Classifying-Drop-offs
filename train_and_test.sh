@@ -51,7 +51,6 @@ cd ${workdir}
 function clean_up {
   # - remove log-file on the compute-node, to prevent overwiting actual output with empty file
   rm slurm-${SLURM_JOB_ID}.out
-  # - TODO delete temporary files from the compute-node, before copying. Prevent copying unnecessary files.
   # rm -r ...
   # - change directory to the location of the sbatch command (on the head node)
   cd "${submitdir}"
