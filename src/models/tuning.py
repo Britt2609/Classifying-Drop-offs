@@ -81,7 +81,7 @@ def main(params):
 
     logger.info("started training")
     # , 
-    # PR because class imbalance, 0.3 : o anything with a probability greater than 0.3 of being sus, we'll classify as sus. 
+    # PR because class imbalance, anything with a probability greater than 0.35 of being positive, we'll classify as positive. 
     model.compile(loss='binary_crossentropy',
                 optimizer=adam, metrics = [TruePositives(), FalsePositives(), TrueNegatives(), FalseNegatives(), AUC(name='PR', curve = "PR", thresholds = [0.35])])
 
