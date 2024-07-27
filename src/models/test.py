@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """
     File name: test_model.py
@@ -34,16 +35,6 @@ import glob
 import os
 import csv
 from sklearn.metrics import classification_report, confusion_matrix, r2_score, mean_absolute_error, mean_squared_error
-
-
-def weighted_binary_crossentropy(y_true, y_pred, pos_weight):
-    epsilon = K.epsilon()
-    y_pred = K.clip(y_pred, epsilon, 1.0 - epsilon)
-    
-    # Compute the weighted binary cross-entropy
-    loss = -(pos_weight * y_true * K.log(y_pred) + (1 - y_true) * K.log(1 - y_pred))
-    return K.mean(loss, axis=-1)
-
 
 @click.command()
 @click.argument('input_filepath', type=click.Path(exists=True))
@@ -113,9 +104,8 @@ def main(input_filepath, input_filepath_models, output_filepath_figures, output_
     # Define the custom loss function with the positive class weight
     custom_loss = lambda y_true, y_pred: weighted_binary_crossentropy(y_test, y_pred, pos_weight)
     
-    # Compile the loaded model with WBCE loss
-    loaded_model.compile(loss=custom_loss, optimizer = adam,  metrics = [TruePositives(), FalsePositives(), TrueNegatives(), FalseNegatives(),  AUC(name='AUC_PR', curve = "PR", thresholds = [0.35])])
-        
+    model.compile(loss='binary_crossentropy',
+                optimizer=adam, metrics = [TruePositives(name="TP_Score"), FalsePositives(), TrueNegatives(), FalseNegatives(), AUC(name='AUC_PR', curve = "PR", thresholds = [0.35]), Recall(name='recall'), Precision(name='precision')])
         
     # calculate predicted probabilities
     scores_pred = loaded_model.predict(x_test, verbose=verbose)
